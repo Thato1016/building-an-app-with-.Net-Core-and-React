@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tbkho\\Documents\\Reactivities\\Domain\\Domain.csproj": {}
+    "C:\\Users\\tkhosa\\Documents\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tbkho\\Documents\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\tkhosa\\Documents\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbkho\\Documents\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tkhosa\\Documents\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\tbkho\\Documents\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\tbkho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbkho\\Documents\\Reactivities\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\tkhosa\\Documents\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\tkhosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tkhosa\\Documents\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tbkho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tkhosa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
